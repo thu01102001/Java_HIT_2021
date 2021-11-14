@@ -4,9 +4,17 @@
  */
 package bai2;
 
-/**
- *
- * @author Administrator
+/*
+Bài 2: Tạo một lớp Array gồm:
+Thuộc tính: 1 mảng số nguyên, 1 số nguyên n là số phần tử của mảng.
+Phương thức: inputData(): nhập số phần tử và 1 mảng số nguyên, Show(): hiển thị các phần tử của mảng trên một dòng. 
+Sum(): tổng các phần tử trong dãy mảng số nguyên. 
+Filter(Boolean flag): flag = true thì lọc ra các số chẵn, ngược lại lọc ra các số lẻ
+Các constructor và getter + setter
+Tạo class RunMain có phương thức main:
+Tạo 2 đối tượng arr1 và arr2 là thể hiện của lớp Array. Sau đó nhập dữ liệu cho 2 đối tượng đó. 
+So sánh TBC các phần tử của 2 đối tượng đó, nếu của đối tượng nào lớn hơn thì thông báo ra màn hình. Nếu bằng nhau thì in ra “Bye”.
+
  */
 public class RunMain {
     public static void main(String[] args) {

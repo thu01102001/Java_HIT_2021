@@ -4,10 +4,16 @@
  */
 package bai3;
 
-/**
- *
- * @author Administrator
- */
+/*
+Bài 3: Tạo một lớp Guns gồm các thuộc tính: weaponName, ammoNumber.
+Các phương thức:
+Load(int x): Khi gọi đến thì ammoNumber sẽ tăng lên x đơn vị.
+Shoot(int x): Khi gọi đến phương thức này ammoNumber sẽ giảm đi x đơn vị (điều kiện ammoNumber – x >= 0), nếu ammoNumber = 0 thì thông báo hết đạn.
+x truyền vào đều được random x thuộc [1,10], khởi tạo đối tượng với ammoNumber = 100
+Các constructor, getter và setter.
+Tại class RunMain: tạo 2 đối tượng(DiepBeDe, DoanXinhGai) và cho bắn nhau. Đối tượng nào hết đạn trước thì sẽ thua. Thông báo ra màn hình.
+
+*/
 import java.util.Random;
 
 public class RunMain {

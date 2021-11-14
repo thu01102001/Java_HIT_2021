@@ -4,9 +4,13 @@
  */
 package bai1;
 
-/**
- *
- * @author Administrator
+/*
+Bài 1: Khai báo lớp Person gồm các thuộc tính: name, age, gender, hobby. 
+Yêu cầu:
+	+ Dùng constructor để khởi tạo 1 đối tượng với đầy đủ thuộc tính và toString() để hiển thị thông tin đối tượng 
+	+ Sử dụng setter, getter nhập xuất thông tin cho 1 person
+-> xuất thông tin 2 person trên.
+
  */
 import java.util.Scanner;
 public class RunMain {
